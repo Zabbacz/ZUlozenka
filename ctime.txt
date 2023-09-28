@@ -1,0 +1,17 @@
+zalozena tabulka `vuc5q_virtuemart_shipment_plg_zulozenka`
+
+nevim proc nefunguje instalace z xml - hlasi, ze chybi soubor v /tmp ????
+
+zkopirovat soubory do plugins/vmshimpent/zulozenka
+
+tabulky 
+vuc5q_virtuemart_shipment_plg_zulozenka
+vuc5q_ulozenka_branches
+
+nutne pridat radek do tabulky extensions
+INSERT INTO `vuc5q_extensions` (`extension_id`, `package_id`, `name`, `type`, `element`, `changelogurl`, `folder`, `client_id`, `enabled`, `access`, `protected`, `locked`, `manifest_cache`, `params`, `custom_data`, `checked_out`, `checked_out_time`, `ordering`, `state`, `note`) VALUES
+(308, 0, 'ZUlozenka', 'plugin', 'zulozenka', NULL, 'vmshipment', 0, 1, 1, 0, 0, '{\"name\":\"ZUlozenka\",\"type\":\"plugin\",\"creationDate\":\"August 21 2023\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2019 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"4.2.2\",\"description\":\"VMSHIPMENT_WEIGHT_COUNTRIES_PLUGIN_DESC\",\"group\":\"\",\"filename\":\"zulozenka\"}', '', '', NULL, NULL, 0, 0, '');
+
+
+
+
