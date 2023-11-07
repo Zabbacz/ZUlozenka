@@ -115,7 +115,7 @@ class PlgvmshipmentZulozenka extends vmPSPlugin {
 		$pobocka_name = Self::getBranch($branch_id);
 		if (!$pobocka_name){
 			$app = JFactory::getApplication();
-			$url = JRoute::_('index.php/cart');
+			$url = JRoute::_('index.php/obchod/cart');
 			$msg = $app->enqueueMessage(JText::_('VMSHIPMENT_ZULOZENKA_NO_BRANCH'), 'warning');
 			$app->redirect($url);
 		}
