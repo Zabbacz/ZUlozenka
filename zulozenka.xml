@@ -2,11 +2,11 @@
 <extension version="2.5" type="plugin" group="vmshipment" method="upgrade">
     <name>Zulozenka</name>
     <creationDate>August 21 2023</creationDate>
-    <author>The VirtueMart Development Team</author>
-    <authorUrl>https://virtuemart.net</authorUrl>
-    <copyright>Copyright (C) 2004 - 2019 Virtuemart Team. All rights reserved.</copyright>
+    <author>Zabba</author>
+    <authorUrl>https://enaradi.cz</authorUrl>
+    <copyright>Copyright (C) 2004 - 2019 Zabba. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-    <version>4.2.2</version>
+    <version>1.0.0</version>
     <description>VMSHIPMENT_WEIGHT_COUNTRIES_PLUGIN_DESC</description>
     <languages>
         <language tag="en-GB">en-GB.plg_vmshipment_zulozenka.ini</language>
